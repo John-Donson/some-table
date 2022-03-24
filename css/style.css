@@ -1,0 +1,45 @@
+
+
+div{
+
+display: inline-block;
+margin: 2rem;
+padding: 1rem;
+    background:linear-gradient(to right, rgb(73, 170, 170), rgb(112, 147, 212), rgb(116, 90, 189), rgb(136, 53, 136), rgb(61, 2, 66));
+ 
+
+
+}
+table{
+   border-collapse: collapse;
+    margin:  2rem;
+    padding: 5rem;
+    background:linear-gradient(to right, rgb(73, 170, 170), rgb(112, 147, 212), rgb(116, 90, 189), rgb(136, 53, 136), rgb(61, 2, 66));
+    color: white;
+}
+
+thead{
+    background:linear-gradient(to right, rgb(71, 51, 184), rgb(84, 42, 161),rgb(86, 77, 119), rgb(100, 117, 155));
+    border-collapse: collapse;
+    color: white;
+    
+}
+
+tr.no-border td{
+    margin-right: 0;
+    border-right:none;
+}
+  
+
+tbody td{
+    background-color: rgba(238, 237, 237, 0.3);
+}
+
+td, th{
+    padding: .7rem 1.6rem;
+}
+
+tbody tr:nth-last-child(2), tbody tr td:nth-last-child(4){
+
+    background-color: rgba(251, 247, 247, 0.418);
+}
